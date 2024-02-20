@@ -1,9 +1,17 @@
-thead {
+.table-index thead {
     background-color: rgb(118, 118, 118);
     color: #fff;
 }
 
-table, th, td {
+.table-index th {
+    width: 200px;
+}
+
+.table-index .no-index {
+    width: 50px;
+}
+
+.table-index, .table-index th, .table-index td {
     border: 1px solid black;
     border-collapse: collapse;
 }
@@ -14,4 +22,8 @@ tbody {
 
 .no {
     text-align: center;
+}
+
+.table-biodata td {
+    border-bottom: 1px solid #000;
 }
