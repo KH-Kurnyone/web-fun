@@ -1,0 +1,17 @@
+thead {
+    background-color: rgb(118, 118, 118);
+    color: #fff;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+tbody {
+    text-wrap: nowrap;
+}
+
+.no {
+    text-align: center;
+}
